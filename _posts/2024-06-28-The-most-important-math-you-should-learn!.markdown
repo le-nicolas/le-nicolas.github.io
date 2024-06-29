@@ -160,7 +160,7 @@ Orthogonality and Linearity: accurate decomposition of tidal data into constitue
 <img src="/assets/Formula.png" width="100%" />
 
 
-<img src="/assets/wEC.png" width="100%" />
+<img src="/assets/WEC.png" width="100%" />
 
 
 Each of these examples leverages the orthogonality and linearity of functions to simplify complex problems, allowing for efficient analysis, manipulation, and reconstruction of systems and signals.
