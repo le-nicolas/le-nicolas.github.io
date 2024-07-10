@@ -20,18 +20,18 @@
 
 title: Luis Enrico Nicolas Blog
 email: 
-description: thoughts to ponder of a Mechanical Engineer
+description: Thoughts to ponder of a Mechanical Engineer
 baseurl: "" 
 url: "http://nicolas.github.io"
-twitter_username: nicolas
-github_username:  nicolas
+twitter_username: LuisEnrico20
+github_username:  le-nicolas
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
 highlighter: rouge
-kramdown
+kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
