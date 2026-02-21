@@ -4,7 +4,7 @@ layout: default
 
 {% assign total_words = 0 %}
 {% for post in site.posts %}
-  {% assign post_words = post.content | strip_html | number_of_words %}
+  {% assign post_words = post.content | strip_html | strip_newlines | split: ' ' | size %}
   {% assign total_words = total_words | plus: post_words %}
 {% endfor %}
 
@@ -59,7 +59,8 @@ layout: default
 
   <section class="posts-grid" id="postsGrid">
     {% for post in site.posts %}
-      {% assign read_minutes = post.content | strip_html | number_of_words | divided_by: 220.0 | ceil %}
+      {% assign post_words = post.content | strip_html | strip_newlines | split: ' ' | size %}
+      {% assign read_minutes = post_words | plus: 219 | divided_by: 220 %}
       {% if read_minutes < 1 %}
         {% assign read_minutes = 1 %}
       {% endif %}
