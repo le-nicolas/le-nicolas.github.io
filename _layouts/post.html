@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% assign word_count = content | strip_html | number_of_words %}
+{% assign read_minutes = word_count | divided_by: 220.0 | ceil %}
+{% if read_minutes < 1 %}
+  {% assign read_minutes = 1 %}
+{% endif %}
+
+<article class="article-view" data-reading-root data-word-count="{{ word_count }}">
+  <a class="back-btn" href="{{ '/' | relative_url }}">← All posts</a>
+
+  <header class="article-header">
+    <div class="post-meta">
+      <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if page.tags and page.tags.size > 0 %}
+        {% for tag in page.tags %}
+          <span class="post-tag">{{ tag }}</span>
+        {% endfor %}
+      {% else %}
+        <span class="post-tag">Untagged</span>
+      {% endif %}
+      <span class="read-time">{{ read_minutes }} min read</span>
+    </div>
+
+    <h1 class="article-title">{{ page.title }}</h1>
+
+    {% if page.excerpt %}
+      <p class="article-subtitle">{{ page.excerpt | strip_html }}</p>
+    {% endif %}
+  </header>
+
+  <div class="article-body post-content" id="articleBody">
+    {{ content }}
+  </div>
+
+  {% if page.comments %}
+    <div class="comments-wrap" id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = "{{ site.url }}{{ page.url }}";
+        this.page.identifier = "{{ page.url }}";
+      };
+      (function () {
+        var d = document;
+        var s = d.createElement("script");
+        s.src = "https://le-nicolasblog.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+  {% endif %}
+
+  {% if page.mathjax %}
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+</article>
+
+{% include reading-hud.html %}

@@ -4,6 +4,7 @@ comments: true
 title:  "What I've Learned from Self-Help Books"
 excerpt: "Boiling self-help books down to its first principle will lead you to the greeks(epictitus, socrates, aristotle ...) but i kind of have my own truth"
 date:   2024-06-29 11:01:47 +0800
+tags: [writing, growth, health]
 ---
 
 Self-help books have been a significant influence on my personal growth journey. They have provided me with the tools to become more disciplined, focused, and mindful. In this post, I want to share some of the key lessons I've learned from these books and how they've shaped my life.

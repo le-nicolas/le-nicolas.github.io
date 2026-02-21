@@ -3,7 +3,8 @@ layout: post
 comments: true
 title:  "Understanding Neural Networks: A Journey from Basics to Mastery"
 excerpt: "The concept of mastering the basics and using that foundation to understand variations and achieve goals is similar to how neural networks operate through their weights and principles"
-date:   2024-07-29 10:031:47 +0800
+date:   2024-07-10 10:31:47 +0800
+tags: [ai, learning, engineering]
 ---
 
 When diving into the world of neural networks, one might find an intriguing parallel to the way we, as humans, learn and master new skills. By starting with the basics and gradually building upon them, we can understand variations and achieve complex goals. Let's explore how this process mirrors the functioning of neural networks through their weights and principles.
@@ -44,7 +45,9 @@ Neural networks make predictions through forward propagation and adjust weights 
 Just as a student requires quality study materials to learn effectively, a neural network requires a good dataset to train successfully. A good dataset:
 
 Quality Data: Provides accurate, relevant, and well-labeled data, which ensures that the neural network learns correctly and can generalize well to new data.
+
 Diverse Examples: Includes a wide range of examples to help the network understand different variations and scenarios, improving its robustness and adaptability.
+
 Balanced Representation: Ensures that different classes or categories are well-represented, preventing bias and ensuring fair performance across all types of data.
 
 ### Conclusion

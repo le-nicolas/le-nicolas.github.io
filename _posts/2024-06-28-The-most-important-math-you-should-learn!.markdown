@@ -4,6 +4,7 @@ comments: true
 title:  "The most important math you should learn!"
 excerpt: "This will lead you to a realization that you'll like to apply math to build things"
 date:   2024-06-28 20:40:47 +0800
+tags: [math, engineering, learning]
 ---
 
 “The journey of solving a problem is often more rewarding than the solution itself." Terence Tao
@@ -160,7 +161,7 @@ Orthogonality and Linearity: accurate decomposition of tidal data into constitue
 <img src="/assets/Formula.png" width="100%" />
 
 
-<img src="/assets/WEC.png" width="100%" />
+<img src="/assets/wEC.png" width="100%" />
 
 
 Each of these examples leverages the orthogonality and linearity of functions to simplify complex problems, allowing for efficient analysis, manipulation, and reconstruction of systems and signals.
@@ -224,8 +225,10 @@ It is almost always important to note that:
 7. Differential equations offer us a really nice context where you can see how that plays out
 
 
-### TLDR: 
-you know the following:
+TLDR: now you know the following(I hope so :D)
+
 -Define what a Fourier series is and understand why its formula is the way it is.
+
 -Explain the concept of orthogonality in the context of sine and cosine functions
+
 -Identify real-world applications of Fourier series in various fields such as engineering, physics, and signal processing.
