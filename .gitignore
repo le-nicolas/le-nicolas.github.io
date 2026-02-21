@@ -1,3 +1,5 @@
 _drafts/
 _site
-
+_posts/_site/
+_posts/.jekyll-cache/
+.jekyll-cache/

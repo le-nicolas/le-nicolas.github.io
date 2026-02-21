@@ -3,8 +3,8 @@ layout: post
 comments: true
 title:  "The most important math you should learn!"
 excerpt: "This will lead you to a realization that you'll like to apply math to build things"
-date:   2024-06-28 20:40:47 +0800
-tags: [math, engineering, learning]
+
+tags: [LaTeX, Engineering, Writing]
 ---
 
 “The journey of solving a problem is often more rewarding than the solution itself." Terence Tao

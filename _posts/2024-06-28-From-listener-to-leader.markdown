@@ -3,8 +3,8 @@ layout: post
 comments: true
 title:  "From Listeners to Leaders: How a Podcast Revolutionized My Life"
 excerpt: "I guess the primary truth you most likely have is base on your surrounding and the questions you ask yourself until you are shown by a group of people sharing their breadth of experience all around the world"
-date:   2024-06-29 11:05:47 +0800
-tags: [leadership, growth, mindset]
+
+tags: [Writing, Leadership, Mindset]
 ---
 
 In the throes of the COVID-19 pandemic, when the world seemed to come to a standstill, I stumbled upon a medium that would ignite a monumental shift in my mindset: podcasts. What started as a casual pastime soon evolved into a transformative journey, leveraging the neuroplasticity effect—the brain’s ability to reorganize itself by forming new neural connections. This journey not only broadened my horizons but also catalyzed my growth from a passive listener to an active leader in my own life.

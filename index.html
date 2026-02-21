@@ -22,7 +22,7 @@ layout: default
           <span class="stat-label">Posts</span>
         </div>
         <div class="stat">
-          <span class="stat-num">{{ site.tags | size }}</span>
+          <span class="stat-num">{{ site.tag_taxonomy | size }}</span>
           <span class="stat-label">Topics</span>
         </div>
         <div class="stat">
@@ -44,9 +44,15 @@ layout: default
 
     <div class="tags-filter" id="tagsFilter">
       <button class="tag-btn active" data-tag-filter="all" type="button">All</button>
-      {% assign sorted_tags = site.tags | sort %}
-      {% for tag in sorted_tags %}
-        <button class="tag-btn" data-tag-filter="{{ tag[0] | downcase }}" type="button">{{ tag[0] }}</button>
+      {% assign taxonomy_tags = site.tag_taxonomy | default: empty %}
+      {% for tag_name in taxonomy_tags %}
+        <button class="tag-btn" data-tag-filter="{{ tag_name | downcase }}" type="button">{{ tag_name }}</button>
+      {% endfor %}
+      {% assign discovered_tags = site.tags | map: "first" | sort %}
+      {% for tag_name in discovered_tags %}
+        {% unless taxonomy_tags contains tag_name %}
+          <button class="tag-btn" data-tag-filter="{{ tag_name | downcase }}" type="button">{{ tag_name }}</button>
+        {% endunless %}
       {% endfor %}
     </div>
   </section>

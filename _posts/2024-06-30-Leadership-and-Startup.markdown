@@ -3,8 +3,8 @@ layout: post
 comments: true
 title:  "Leadership and Startup"
 excerpt: "Lessons from Stripe: Founding, Growth, and Innovation"
-date:   2024-06-30 11:25:47 +0800
-tags: [leadership, startup, workflow]
+
+tags: [Leadership, Workflow, Writing]
 ---
 
 In the realm of technology startups, few stories are as compelling as that of Stripe. Founded by brothers Patrick and John Collison, Stripe has revolutionized online payments, but their journey is marked by unique insights into starting and growing a company. Here are some key lessons from their experience.

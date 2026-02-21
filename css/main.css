@@ -121,6 +121,7 @@ video {
   gap: 1.25rem;
   flex-wrap: wrap;
   justify-content: flex-end;
+  min-width: 0;
 }
 
 .site-nav a {
@@ -130,6 +131,7 @@ video {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 .site-nav a:hover,
@@ -264,6 +266,7 @@ video {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .tag-btn {
@@ -278,6 +281,7 @@ video {
   padding: 0.36rem 0.85rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .tag-btn:hover,
@@ -876,13 +880,83 @@ video {
   }
 
   .site-header .site-shell {
-    height: auto;
-    padding: 0.8rem 0;
-    align-items: flex-start;
+    height: 64px;
+    padding: 0;
+    gap: 0.65rem;
+  }
+
+  .site-name {
+    max-width: 36%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
   }
 
   .site-nav {
-    gap: 0.8rem;
+    flex-wrap: nowrap;
+    gap: 0.6rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 0.15rem;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav a {
+    font-size: 0.64rem;
+  }
+
+  .theme-toggle {
+    width: 28px;
+    height: 28px;
+    flex: 0 0 auto;
+  }
+
+  .hero {
+    padding-top: 2.8rem;
+    gap: 1.4rem;
+  }
+
+  .hero-left p {
+    font-size: 0.88rem;
+    max-width: 100%;
+  }
+
+  .stat-row {
+    gap: 1.4rem;
+  }
+
+  .search-wrap {
+    margin-bottom: 1.5rem;
+    gap: 0.7rem;
+  }
+
+  .search-box {
+    width: 100%;
+    min-width: 0;
+    font-size: 0.84rem;
+  }
+
+  .tags-filter {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .tags-filter::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tag-btn {
+    font-size: 0.66rem;
+    padding: 0.42rem 0.82rem;
   }
 
   .posts-grid {
@@ -890,15 +964,43 @@ video {
   }
 
   .post-card {
-    padding: 1.4rem;
+    padding: 1.25rem;
+    min-height: 0;
+  }
+
+  .post-meta {
+    gap: 0.35rem;
+  }
+
+  .read-time {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.15rem;
+  }
+
+  .post-title {
+    font-size: 1.25rem;
+  }
+
+  .post-excerpt {
+    font-size: 0.84rem;
   }
 
   .article-view,
   .page-view {
-    padding-top: 2.4rem;
+    padding-top: 2rem;
+  }
+
+  .article-title {
+    line-height: 1.16;
+  }
+
+  .article-body,
+  .page-body {
+    font-size: 0.97rem;
   }
 
   .top-progress {
-    top: 58px;
+    top: 64px;
   }
 }

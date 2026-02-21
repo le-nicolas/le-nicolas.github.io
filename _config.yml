@@ -26,6 +26,15 @@ baseurl: ""
 url: "http://le-nicolas.github.io"
 twitter_username: LuisEnrico20
 github_username:  le-nicolas
+tag_taxonomy:
+  - DevTools
+  - Writing
+  - LaTeX
+  - Workflow
+  - Engineering
+  - Leadership
+  - AI
+  - Mindset
 
 # Build settings
 markdown: kramdown
@@ -58,3 +67,6 @@ kramdown:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - _posts/_site
+  - _posts/.jekyll-cache
