@@ -1,0 +1,22 @@
+<div id="topProgress" class="top-progress" hidden></div>
+
+<aside id="readingHud" class="reading-hud" hidden aria-label="Reading progress">
+  <span class="hud-label">Progress</span>
+
+  <div class="progress-ring-wrap" aria-hidden="true">
+    <svg class="progress-ring" viewBox="0 0 40 40">
+      <circle class="ring-bg" r="17" cx="20" cy="20"></circle>
+      <circle class="ring-fill" id="ringFill" r="17" cx="20" cy="20"></circle>
+    </svg>
+    <span class="ring-pct" id="ringPct">0%</span>
+  </div>
+
+  <div class="hud-time">
+    <div id="timeLeft">--</div>
+    <div class="hud-time-label">left</div>
+  </div>
+
+  <div class="hud-sections" id="hudSections" aria-label="Section navigation"></div>
+
+  <button class="hud-top-btn" id="hudTopBtn" type="button" title="Back to top" aria-label="Back to top">↑</button>
+</aside>

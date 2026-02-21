@@ -4,6 +4,7 @@ comments: true
 title:  "Modern Mechanical Engineering"
 excerpt: "Mastering the Engineering Design Process: A Comprehensive Guide"
 date:   2024-06-29 11:56:47 +0800
+tags: [engineering, systems, workflow]
 ---
 
 The engineering design process is the backbone of systems engineering, offering a methodical, multi-disciplinary approach for the design, realization, technical management, operations, and retirement of systems. It integrates a combination of elements functioning together to produce the capability required to meet a need. This guide delves into the systematic process of reasoning, key concepts, and techniques essential for mastering the engineering design process.
@@ -138,4 +139,3 @@ To be an effective systems engineer, one must:
 
 ### Conclusion
 The engineering design process is a systematic approach to solving technical problems and developing effective systems. By understanding and applying key concepts, techniques, and thinking processes, you can navigate this process with greater confidence and success. Remember, successful systems engineering requires not just technical knowledge but also a holistic understanding of how various elements interact and contribute to the overall system.
-

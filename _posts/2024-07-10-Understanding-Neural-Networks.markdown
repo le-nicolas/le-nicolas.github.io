@@ -3,7 +3,8 @@ layout: post
 comments: true
 title:  "Understanding Neural Networks: A Journey from Basics to Mastery"
 excerpt: "The concept of mastering the basics and using that foundation to understand variations and achieve goals is similar to how neural networks operate through their weights and principles"
-date:   2024-07-10 10:031:47 +0800
+date:   2024-07-10 10:31:47 +0800
+tags: [ai, learning, engineering]
 ---
 
 When diving into the world of neural networks, one might find an intriguing parallel to the way we, as humans, learn and master new skills. By starting with the basics and gradually building upon them, we can understand variations and achieve complex goals. Let's explore how this process mirrors the functioning of neural networks through their weights and principles.

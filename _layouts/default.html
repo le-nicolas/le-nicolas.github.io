@@ -1,20 +1,16 @@
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
-    <body>
-
+  <body data-layout="{{ page.layout }}">
+    <div class="page-noise" aria-hidden="true"></div>
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
+    <main class="site-main">
       {{ content }}
-      </div>
-    </div>
+    </main>
 
     {% include footer.html %}
 
-    </body>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  </body>
 </html>

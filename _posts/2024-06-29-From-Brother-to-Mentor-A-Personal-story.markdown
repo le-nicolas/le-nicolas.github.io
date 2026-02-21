@@ -4,6 +4,7 @@ comments: true
 title:  "From Brother to Mentor: A Personal story"
 excerpt: "Maturing something is akin to mixing cement: you need the right ingredients, the correct amount of water, and the patience to let it set without interference, allowing it to fully mature."
 date:   2024-06-29 20:40:47 +0800
+tags: [leadership, personal, growth]
 ---
 
 As a young adult suddenly responsible for the development of my younger brother due to our parents’ demanding work schedules, I found myself grappling with unexpected challenges. This role required more than just basic caregiving; it required a deep understanding of how to guide someone towards their potential. In this journey, I discovered that you don’t need to be an expert to teach someone. You just have to be the key or the bridge that allows them to learn to walk so that they can eventually run.
