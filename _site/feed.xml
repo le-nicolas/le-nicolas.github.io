@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luis Enrico Nicolas Blog</title>
+    <description>Thoughts to ponder of a Mechanical Engineer</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 10 Jul 2024 13:57:47 +0800</pubDate>
+    <lastBuildDate>Wed, 10 Jul 2024 13:57:47 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Understanding Neural Networks: A Journey from Basics to Mastery</title>
+        <description>&lt;p&gt;When diving into the world of neural networks, one might find an intriguing parallel to the way we, as humans, learn and master new skills. By starting with the basics and gradually building upon them, we can understand variations and achieve complex goals. Let’s explore how this process mirrors the functioning of neural networks through their weights and principles.&lt;/p&gt;
+
+&lt;h3 id=&quot;foundation-of-learning&quot;&gt;Foundation of Learning&lt;/h3&gt;
+
+&lt;p&gt;Basics in Learning:
+Just as mastering the basics in any field provides a strong foundation, in neural networks, the initial layers often learn basic features such as edges, textures, or simple patterns. These foundational elements are crucial for understanding more complex concepts later on.&lt;/p&gt;
+
+&lt;p&gt;Weights in Neural Networks:
+The weights in the initial layers of a neural network are responsible for capturing these basic features. During training, these weights are adjusted to learn these foundational patterns. Think of it as learning the alphabet before forming words and sentences.&lt;/p&gt;
+
+&lt;p&gt;Building Complexity
+Learning More Complex Concepts:
+Once you have a strong grasp of the basics, you can build on them to understand more complex ideas. Similarly, in a neural network, the deeper layers build on the features learned by the initial layers to detect more intricate patterns and relationships. This hierarchical learning process is akin to understanding sentences before tackling entire paragraphs and essays.&lt;/p&gt;
+
+&lt;p&gt;Weights Adjustment:
+In neural networks, the weights in the deeper layers are fine-tuned to learn these complex features. They rely on the simpler features identified by the earlier layers to form a comprehensive understanding, much like how advanced learning builds on foundational knowledge.&lt;/p&gt;
+
+&lt;p&gt;Adaptability and Generalization
+Applying Knowledge Flexibly:
+Mastering the basics allows for flexible application across different contexts. In neural networks, a well-trained model can generalize from the training data to new, unseen data. This adaptability is crucial for the model’s success in real-world applications.&lt;/p&gt;
+
+&lt;p&gt;Weight Optimization:
+The training process involves optimizing the weights to minimize error and improve the model’s ability to generalize. This optimization ensures that the neural network can handle a variety of inputs and still produce accurate predictions.&lt;/p&gt;
+
+&lt;p&gt;Efficiency and Problem-Solving
+Efficient Learning:
+With a strong foundational knowledge, learning new skills or solving problems becomes more efficient. Similarly, as a neural network learns, it becomes more adept at processing inputs and making accurate predictions. This efficiency is a result of continuous learning and adaptation.&lt;/p&gt;
+
+&lt;p&gt;Forward and Backward Propagation:
+Neural networks make predictions through forward propagation and adjust weights through backward propagation to reduce errors. This dual process allows the network to become more efficient over time, just as continuous practice and feedback help us improve in our endeavors.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;and ofcourse we should’nt forget the datasets&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-importance-of-a-good-dataset&quot;&gt;The Importance of a Good Dataset&lt;/h3&gt;
+
+&lt;p&gt;Just as a student requires quality study materials to learn effectively, a neural network requires a good dataset to train successfully. A good dataset:&lt;/p&gt;
+
+&lt;p&gt;Quality Data: Provides accurate, relevant, and well-labeled data, which ensures that the neural network learns correctly and can generalize well to new data.&lt;/p&gt;
+
+&lt;p&gt;Diverse Examples: Includes a wide range of examples to help the network understand different variations and scenarios, improving its robustness and adaptability.&lt;/p&gt;
+
+&lt;p&gt;Balanced Representation: Ensures that different classes or categories are well-represented, preventing bias and ensuring fair performance across all types of data.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;In essence, the journey of mastering the basics and building upon them is as crucial in human learning as it is in the functioning of neural networks. The proper adjustment of weights in a neural network is fundamental to its ability to learn from data and make accurate predictions. Both processes rely on building a strong foundation and progressively learning from simpler to more complex patterns. Additionally, just as quality study materials are essential for effective learning, a good dataset is vital for training a successful neural network. By understanding these parallels, we can appreciate the intricate beauty of how both human minds and artificial networks learn and evolve.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2024 10:31:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/07/10/Understanding-Neural-Networks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/07/10/Understanding-Neural-Networks/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Leadership and Startup</title>
+        <description>&lt;p&gt;In the realm of technology startups, few stories are as compelling as that of Stripe. Founded by brothers Patrick and John Collison, Stripe has revolutionized online payments, but their journey is marked by unique insights into starting and growing a company. Here are some key lessons from their experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-journey-begins-stripes-founding-story&quot;&gt;The Journey Begins: Stripe’s Founding Story&lt;/h3&gt;
+
+&lt;p&gt;Stripe’s inception is a tale of innovation and sibling collaboration. Although Stripe never formally went through Y Combinator’s program, the investment they received was crucial in their early days. Starting a company with a sibling presents unique challenges and benefits. The Collison brothers’ experience highlights the advantage of having a strong foundational relationship, which helps in resolving conflicts effectively. Patrick Collison often remarks on their 20 years of “fighting in various ways,” which prepared them to handle disagreements constructively.&lt;/p&gt;
+
+&lt;p&gt;Building a Strong Company Culture
+A critical aspect of Stripe’s success has been its approach to company management and culture. Resolving differences swiftly and maintaining company cohesion are vital. The Collison brothers emphasize the importance of a foundational relationship that allows for open, honest communication. This dynamic is essential for navigating the inevitable disagreements that arise in any startup.&lt;/p&gt;
+
+&lt;p&gt;One of Stripe’s standout features is its hiring practices. Known for recruiting top-tier developers, Stripe’s evolution in this area offers valuable insights. Initially, they adopted laptop interviews to assess technical skills effectively. As the company scaled, these practices evolved, but the core philosophy remained the same: hire the best, and maintain a rigorous standard.&lt;/p&gt;
+
+&lt;p&gt;Innovating with First Principles
+Innovation at Stripe is driven by a deep understanding of first principles. The founders believe in questioning and understanding the core processes of their business. For instance, recruiting is not just about filling positions but about finding individuals who align with the company’s mission and values. This approach ensures that every new hire contributes to Stripe’s long-term success.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;However, innovation comes with its own set of challenges. Dealing with unintended consequences is part and parcel of doing things differently. The Collisons discuss the importance of a cost-benefit analysis in decision-making. Sometimes, being marginally better at a process can have significant long-term benefits, making the investment of time and resources worthwhile.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Recruitment Strategies: A Key to Success
+Stripe’s recruitment strategies are a testament to its commitment to excellence. Transitioning to laptop interviews allowed the company to assess candidates’ skills more effectively. This approach has been refined over time, adapting to the company’s growth from a small startup to a major player in the tech industry.&lt;/p&gt;
+
+&lt;p&gt;The founders also acknowledge the role of luck and strategic planning in their successful hiring practices. While it’s challenging to pinpoint the exact factors behind their success, a combination of rigorous standards and an eye for talent has served Stripe well.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Stripe’s story offers valuable lessons for anyone looking to start or grow a company. From the importance of a strong foundational relationship to innovative hiring practices and strategic decision-making, the Collison brothers’ experience is a masterclass in entrepreneurship.&lt;/p&gt;
+
+&lt;p&gt;Key takeaways:&lt;/p&gt;
+
+&lt;p&gt;Mental models—frameworks for thinking—about different aspects of companies.
+1.) Optimal Planning at Different Timeframes: The conversation highlighted that what constitutes an optimal plan for a company over a one-year period can be quite different from what is optimal over a five-year period. This suggests that short-term and long-term strategies often require different approaches and considerations.&lt;/p&gt;
+
+&lt;p&gt;2.) Stripe as a Blob in Philosophical Space: This analogy portrays the company Stripe as a ‘blob’ in a philosophical space, indicating that the company is a complex, dynamic entity. People within the organization are positioned at different angles and distances from the center of this blob, representing their various perspectives, roles, and levels of alignment with the company’s core values and goals. It suggests that leaders need to actively work to align everyone towards a common center of mass or purpose.&lt;/p&gt;
+
+&lt;p&gt;3.) The 3 Jobs of a CEO: Setting the vision and strategy for the company, building and leading the senior team, and ensuring the company has the necessary resources (financial, human, and otherwise) to achieve its goals.&lt;/p&gt;
+
+&lt;p&gt;Interesting insights that strikes me.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;How to organize groups of people towards a common goal
+Human psychology has in comparison stayed nearly constant, which means we can more confidently draw on past knowledge in these areas.
+Hiring is to find them and steer them towards a direction, as opposed to thinking about it the other way around, where you try to find people aligned with your direction first and then build them up over time.
+Good people in an area attract more good people like them
+Some people have preferences towards particular stages of the company, and that some might not scale, or not be willing to scale, up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For aspiring entrepreneurs, the key takeaway is clear: success comes from a blend of strong relationships, innovative thinking, and a relentless pursuit of excellence. Whether you’re starting a company with a sibling or innovating in a well-established industry, these principles can guide you on your path to success.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Jun 2024 11:25:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/30/Leadership-and-Startup/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/30/Leadership-and-Startup/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>From Brother to Mentor: A Personal story</title>
+        <description>&lt;p&gt;As a young adult suddenly responsible for the development of my younger brother due to our parents’ demanding work schedules, I found myself grappling with unexpected challenges. This role required more than just basic caregiving; it required a deep understanding of how to guide someone towards their potential. In this journey, I discovered that you don’t need to be an expert to teach someone. You just have to be the key or the bridge that allows them to learn to walk so that they can eventually run.&lt;/p&gt;
+
+&lt;p&gt;One important obstacle I learned (for which I am so grateful) is that history is full of bad jokes—misguided lives and unfulfilled potential often stem from a lack of guidance and support. I wondered: Is it because no one cared for them? Or because the world is too pressured, with everyone chasing something? These questions shaped my approach to my brother’s development.&lt;/p&gt;
+
+&lt;p&gt;Of course, I cared for their future and their life ahead. One important thing I know is to “train up a child in the way he should go; and when he is old, he will not depart from it” (Proverbs 22:6). This is actually true in most cases; as time goes by, people will base what they do on inertia. So, I took this challenge and took action. I firmly believe in the value of hard work and allowing individuals to develop their own style(one important thing i notice is that they dont like to read books, so i didn’t force them there).&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not about imposing a path but providing the foundation and encouragement for them to find their own.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Teaching starts at the foundational level. I embraced methods and mindsets that would resonate with my brother. Inspired by Gordon Ramsay’s motto, “cheap cuts into something extraordinary,” I focused on transforming simple beginnings into exceptional outcomes. Drawing inspiration from role models like Bob Ross, I emphasized that drawing is a visual skill that can be nurtured with patience and practice. (I have two brothers, by the way.)&lt;/p&gt;
+
+&lt;p&gt;One pivotal moment was catching my brother painting on the walls using cleaning materials. Instead of reprimanding him, I praised his creativity and encouraged his artistic exploration. I learned to encourage failure as a natural part of learning, fostering a safe space where mistakes were seen as stepping stones to success. For my other brother, it was his confidence in adding starch to the dish he was making (adobo), which made me realize, “Oh, he actually reads the content and its compatibility for its flavor to be good.”&lt;/p&gt;
+
+&lt;p&gt;I also allowed my brothers to have full, immersive experiences, whether we were jogging, visiting art galleries, or dining at restaurants. Every activity was a learning opportunity, blending subjective enjoyment with objective lessons from nature and life.&lt;/p&gt;
+
+&lt;p&gt;All in all, this is easier said than done. Development takes time. You cannot rush it, and it’s important to pace the acceleration to avoid overwhelming them. Patience is key, as it allows new concepts and skills to sink in deeply and become part of their being. These methods brought a noticeable shift in my brother. He became more well-rounded, his grades improved, and he developed a love for learning from the ground up. The changes were profound and extended beyond academics; they touched every aspect of his growth.&lt;/p&gt;
+
+&lt;h3 id=&quot;in-summary&quot;&gt;In summary&lt;/h3&gt;
+
+&lt;p&gt;Developing my brothers required a blend of guidance, encouragement, and patience. It was a journey that emphasized the importance of foundational learning, immersive experiences, and allowing for personal growth at a natural pace. This approach not only helped them grow but also enriched my own life. If you find yourself in a similar role, remember that every step, no matter how small, contributes to a significant impact over time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Helping someone discover who they truly are and expanding their horizons is one of the most rewarding experiences. It not only changes their life but also enriches yours. So, take the time to invest in those around you, and watch how it transforms both of you.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 29 Jun 2024 20:40:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/From-Brother-to-Mentor-A-Personal-story/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/From-Brother-to-Mentor-A-Personal-story/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Art of Systematic Thinking in Engineering and Design</title>
+        <description>&lt;p&gt;Engineering and design are disciplines that thrive on systematic thinking, structured approaches, and iterative processes. Let’s explore how a thoughtful, methodical approach can drive innovation, optimize design, and lead to successful outcomes in engineering projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;foundational-confidence-reasoning-from-axiomatic-truths&quot;&gt;Foundational Confidence: Reasoning from Axiomatic Truths&lt;/h3&gt;
+&lt;p&gt;When tackling a complex problem, start with what you know to be true at a foundational level. This axiomatic base provides a solid ground from which to reason up. Cross-check your conclusions against these foundational truths to ensure consistency and reliability in your solutions.&lt;/p&gt;
+
+&lt;p&gt;Thinking in Extremes: Scaling Up and Down
+One powerful technique is to consider how a system behaves at its limits. Scale a problem to very large or very small numbers and observe how things change. This approach can reveal hidden dependencies and constraints. For instance, if a product remains expensive even when produced at a high volume, the issue likely lies in its design rather than in manufacturing inefficiencies.&lt;/p&gt;
+
+&lt;p&gt;Cost Analysis: Understanding Material Limits
+Understanding the cost structure of a product involves analyzing the raw materials used and their respective values. The “asymptotic limit” concept suggests that the minimum cost of a product is the sum of its raw material costs unless fundamental changes are made to the materials or design. This principle helps identify areas where cost savings can be achieved through design innovation.&lt;/p&gt;
+
+&lt;p&gt;The Platonic Ideal: Striving for Perfection
+Imagine the ideal version of your product—the perfect arrangement of atoms. While this ideal may be unattainable, striving for it pushes you toward innovative solutions. Consider what tools, methods, and materials you need to create the closest approximation of this perfect product.&lt;/p&gt;
+
+&lt;p&gt;Practical vs. Theoretical: Balancing Innovation and Familiarity
+Innovation often involves breaking away from familiar tools and methods. However, there’s a balance to be struck between using what you have and envisioning the perfect product. The ideal design will evolve as you learn more, making the pursuit of perfection a moving target.&lt;/p&gt;
+
+&lt;p&gt;Control and Optimization: Simplifying Complexity
+Control is crucial for accurate deduction. A systematic approach involves boiling down complex systems to their simplest forms, ensuring each element is as uncomplicated as necessary. Mechanical engineering, for instance, often focuses on directing forces to achieve desired outcomes with minimal complexity.&lt;/p&gt;
+
+&lt;p&gt;Learning from Non-Experts: Practical Insights
+Watching non-experts struggle with problems can provide valuable insights. Their practical approaches, though sometimes lacking theoretical grounding, can highlight real-world challenges and lead to effective solutions. This perspective complements a systematic, theory-driven approach.&lt;/p&gt;
+
+&lt;p&gt;Prototyping and Testing: Iterative Development
+Prototyping is essential for validating concepts. Create cheap, reconfigurable prototypes to explore different configurations and understand what works and what doesn’t. Sensitivity analysis during this phase helps identify critical factors and refine the design.&lt;/p&gt;
+
+&lt;p&gt;Data-Driven Analysis: Verifying and Optimizing
+Collecting and analyzing data is fundamental to the engineering design process. Accurate parameterization of models, understanding key variables, and conducting thorough testing lead to optimal designs. This approach mirrors advanced algorithms used in fields like numerical analysis and optimization.&lt;/p&gt;
+
+&lt;p&gt;Experimentation and Creativity: Applying Imagination
+Engineering is as much about creativity as it is about systematic thinking. Applying imagination to address challenges requires both motivation and experimentation. Observations, hypotheses, and rigorous testing form the backbone of this creative process.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion-systematic-thinking-as-a-path-to-success&quot;&gt;Conclusion: Systematic Thinking as a Path to Success&lt;/h3&gt;
+&lt;p&gt;Systematic thinking in engineering and design involves a balance of foundational reasoning, practical insights, and iterative development. By understanding material limits, striving for ideal solutions, and embracing both theoretical and practical perspectives, engineers can innovate and optimize their designs effectively.&lt;/p&gt;
+
+&lt;p&gt;Embrace the art of systematic thinking, and you’ll find that every failure is an opportunity to learn, every test brings new insights, and every iteration brings you closer to the optimal solution.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Jun 2024 11:56:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/The-Art-of-Systematic-Thinking/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/The-Art-of-Systematic-Thinking/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modern Mechanical Engineering</title>
+        <description>&lt;p&gt;The engineering design process is the backbone of systems engineering, offering a methodical, multi-disciplinary approach for the design, realization, technical management, operations, and retirement of systems. It integrates a combination of elements functioning together to produce the capability required to meet a need. This guide delves into the systematic process of reasoning, key concepts, and techniques essential for mastering the engineering design process.&lt;/p&gt;
+
+&lt;h3 id=&quot;understanding-the-engineering-design-process&quot;&gt;Understanding the Engineering Design Process&lt;/h3&gt;
+&lt;p&gt;What is a System?
+A system is a combination of elements that function together to produce the capability required to meet a need. Systems engineering involves a logical way of thinking to systematically address and solve technical problems. This requires clear, rational steps to analyze situations, make decisions, and understand relationships between concepts.&lt;/p&gt;
+
+&lt;p&gt;Key Thinking Processes&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Deductive Reasoning: Starting from a general principle to reach a specific conclusion.&lt;/li&gt;
+  &lt;li&gt;Inductive Reasoning: Making broad generalizations from specific observations.&lt;/li&gt;
+  &lt;li&gt;Abductive Reasoning: Formulating the simplest and most likely explanation from a set of observations.&lt;/li&gt;
+  &lt;li&gt;Analytical Thinking: Isolating different components to understand the whole system.&lt;/li&gt;
+  &lt;li&gt;Problem-Solving: Applying methodical approaches to identify root causes and develop effective solutions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The Engineering Design Process&lt;/p&gt;
+
+&lt;p&gt;The engineering design process follows a series of steps to ensure systematic and thorough problem-solving:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identify the Problem: Recognize a need or opportunity.&lt;/li&gt;
+  &lt;li&gt;Gather Information: Collect relevant data and insights.&lt;/li&gt;
+  &lt;li&gt;Analyze Information: Break down the information to understand the problem better.&lt;/li&gt;
+  &lt;li&gt;Develop Solutions: Create possible solutions based on the analysis.&lt;/li&gt;
+  &lt;li&gt;Evaluate Solutions: Assess each solution’s feasibility and effectiveness.&lt;/li&gt;
+  &lt;li&gt;Implement Solutions: Put the best solution into practice and monitor its performance.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;technical-management-and-decision-making&quot;&gt;Technical Management and Decision Making&lt;/h3&gt;
+
+&lt;p&gt;A structured approach is essential to identify root causes and develop effective solutions. Continuously re-evaluate your process and approach to ensure that the system meets its goals. Questions to ask include:&lt;/p&gt;
+
+&lt;p&gt;-Why is there a problem?&lt;/p&gt;
+
+&lt;p&gt;-What was the exact sequence of events?&lt;/p&gt;
+
+&lt;p&gt;-What is the real root cause?&lt;/p&gt;
+
+&lt;p&gt;-How could it have been avoided?&lt;/p&gt;
+
+&lt;p&gt;-Why are you not good enough?&lt;/p&gt;
+
+&lt;p&gt;-How will you become better?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;by doing so, you will most likely approximate a true reasoning and confidently build up from there. leading you to something.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;developing-skills-and-balancing-systems&quot;&gt;Developing Skills and Balancing Systems&lt;/h3&gt;
+
+&lt;p&gt;To optimize the overall design and ensure system/subsystem balance, constantly validate that the operational system’s goals will be met. A good engineer must know when and where to solve problems, often without knowing all the given information in advance. In the real world, you must filter surplus information or find missing data.&lt;/p&gt;
+
+&lt;p&gt;Ensuring System Fulfillment:&lt;/p&gt;
+
+&lt;p&gt;Ensure that the system technically fulfills defined needs and requirements, and that a proper approach is followed. Regularly review and evaluate the technical aspects of the project to ensure that the system/subsystem engineering processes are functioning properly and evolving from concept to product.&lt;/p&gt;
+
+&lt;p&gt;Key Concepts and Techniques:&lt;/p&gt;
+
+&lt;p&gt;-Con-ops (Concept of Operations): Understand and define how the system will be used.&lt;/p&gt;
+
+&lt;p&gt;-System Architecture: Define the overall structure, including components, their interrelationships, and interfaces.&lt;/p&gt;
+
+&lt;p&gt;-Defining Boundaries: Clearly establish the limits of the system.&lt;/p&gt;
+
+&lt;p&gt;-Defining and Allocating Requirements: Identify and allocate requirements to ensure all system elements are considered.&lt;/p&gt;
+
+&lt;p&gt;-Evaluating Design Trade-offs: Balance performance, cost, risk, and stakeholder requirements.&lt;/p&gt;
+
+&lt;p&gt;-Balancing Technical Risk: Manage organizational costs, technical interactions, and ensure technical correctness within budget and schedule.&lt;/p&gt;
+
+&lt;h3 id=&quot;system-design-process&quot;&gt;System Design Process&lt;/h3&gt;
+
+&lt;p&gt;The system design process involves:&lt;/p&gt;
+
+&lt;p&gt;-Stakeholder Expectation: Understanding the needs and expectations.&lt;/p&gt;
+
+&lt;p&gt;-Technical Requirement Definition: Establishing technical specifications.&lt;/p&gt;
+
+&lt;p&gt;-Logical Decomposition: Breaking down the system into manageable components.&lt;/p&gt;
+
+&lt;p&gt;-Design Solution Definition: Developing and defining the solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;product-realization-steps-for-product-realization-include&quot;&gt;Product Realization: Steps for product realization include:&lt;/h3&gt;
+
+&lt;p&gt;-Implementation: Execute the design and fabricate hardware/software.&lt;/p&gt;
+
+&lt;p&gt;-Integration: Combine all components into a functioning system.&lt;/p&gt;
+
+&lt;p&gt;-Verification: Confirm that the system meets specified requirements.&lt;/p&gt;
+
+&lt;p&gt;-Validation: Ensure the system performs as intended in the operational environment.&lt;/p&gt;
+
+&lt;p&gt;-Transition: Move the system from development to operational use.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-management-process&quot;&gt;Technical Management Process&lt;/h3&gt;
+
+&lt;p&gt;The technical management process involves:&lt;/p&gt;
+
+&lt;p&gt;-Decision Analysis: Making informed decisions based on data and analysis.&lt;/p&gt;
+
+&lt;p&gt;-System Design: Understanding the interactions and flows within each step of the process.&lt;/p&gt;
+
+&lt;p&gt;-Creation of Alternative Design Concepts: Developing multiple design options to find the best solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges-and-considerations&quot;&gt;Challenges and Considerations&lt;/h3&gt;
+
+&lt;p&gt;-Handling Uncertainties: Be comfortable with change and uncertainty, understanding probabilistic statements and covariance analysis.&lt;/p&gt;
+
+&lt;p&gt;-Managing Technical Risks: Balance organizational cost, technical interactions, and ensure technical correctness within budget and 
+schedule.&lt;/p&gt;
+
+&lt;p&gt;-Adapting to Changes: The design process is never truly finished; it evolves with new insights and requirements.&lt;/p&gt;
+
+&lt;h3 id=&quot;verification-and-validation&quot;&gt;Verification and Validation&lt;/h3&gt;
+
+&lt;p&gt;-Verification: Confirming that system components meet specified requirements through reviews, inspections, and testing.&lt;/p&gt;
+
+&lt;p&gt;-Validation: Ensuring that the system as a whole satisfies stakeholder needs and performs as intended in its operational environment.&lt;/p&gt;
+
+&lt;p&gt;and now putting things all together, one must question this,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;what does it takes to be good enough?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To be an effective systems engineer, one must:&lt;/p&gt;
+
+&lt;p&gt;-Hone Engineering Judgment: Problems often do not have one answer, and sometimes you must juggle unknowns to determine risks and paths forward.&lt;/p&gt;
+
+&lt;p&gt;-Embrace Continuous Learning: Technical knowledge can be learned, but soft skills are harder to acquire if you are not checking in with yourself.&lt;/p&gt;
+
+&lt;p&gt;-Develop Personal Behaviors: Be responsible for everything, exhibit intellectual curiosity, and understand the big picture.
+-Communicate Effectively: A good engineer needs to ask informed questions and have excellent communication skills.&lt;/p&gt;
+
+&lt;p&gt;-Balance and Optimize: Be skilled in balancing organizational cost and technical interactions in complex systems, delivering technically correct systems within cost and schedule constraints.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;The engineering design process is a systematic approach to solving technical problems and developing effective systems. By understanding and applying key concepts, techniques, and thinking processes, you can navigate this process with greater confidence and success. Remember, successful systems engineering requires not just technical knowledge but also a holistic understanding of how various elements interact and contribute to the overall system.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 Jun 2024 11:56:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/Mechanical-engineering/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/Mechanical-engineering/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>From Listeners to Leaders: How a Podcast Revolutionized My Life</title>
+        <description>&lt;p&gt;In the throes of the COVID-19 pandemic, when the world seemed to come to a standstill, I stumbled upon a medium that would ignite a monumental shift in my mindset: podcasts. What started as a casual pastime soon evolved into a transformative journey, leveraging the neuroplasticity effect—the brain’s ability to reorganize itself by forming new neural connections. This journey not only broadened my horizons but also catalyzed my growth from a passive listener to an active leader in my own life.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-power-of-diverse-perspectives&quot;&gt;The Power of Diverse Perspectives&lt;/h3&gt;
+&lt;p&gt;The first podcast that drew me in was “The Joe Rogan Experience.” Joe Rogan’s show is renowned for its wide range of guests, from scientists and authors to comedians and athletes. This diversity introduced me to a variety of perspectives, offering insights that were both enlightening and thought-provoking. The long-form conversations, often lasting several hours, allowed for in-depth discussions that provided nuanced insights far beyond what shorter interviews could offer.&lt;/p&gt;
+
+&lt;p&gt;Rogan’s unfiltered style and willingness to discuss controversial topics openly were refreshing in a media landscape dominated by scripted and edited content. His background as a comedian brought a blend of humor and serious discussion, making each episode an engaging mix of entertainment and education. Through Rogan’s podcast, I learned not just from experts in various fields but also about the importance of authenticity and candid dialogue.&lt;/p&gt;
+
+&lt;h3 id=&quot;intellectual-depth-and-empathy&quot;&gt;Intellectual Depth and Empathy&lt;/h3&gt;
+
+&lt;p&gt;Next, I discovered Lex Fridman’s podcast, known for its intellectual rigor and thoughtful exploration of complex topics such as artificial intelligence, technology, philosophy, and human behavior. Fridman’s background as a researcher in AI added credibility and depth to these discussions. His empathetic interviewing style often brought out the human side of his guests, encouraging deep, personal reflections and discussions that resonated with me on a profound level.&lt;/p&gt;
+
+&lt;p&gt;Fridman’s curiosity-driven approach encouraged me to explore unconventional ideas and perspectives, challenging me to think critically and broaden my understanding. The strong sense of community around his podcast, fostered through discussions both on the show and across social media platforms, further enriched my experience. Engaging with this community allowed me to exchange ideas and perspectives, fostering a deeper connection with the content and the people behind it.&lt;/p&gt;
+
+&lt;h3 id=&quot;practical-insights-from-neuroscience&quot;&gt;Practical Insights from Neuroscience&lt;/h3&gt;
+
+&lt;p&gt;Andrew Huberman’s podcast was another game-changer. A renowned neuroscientist, Huberman focuses on brain science, neuroplasticity, and the physiological aspects of human behavior. His ability to translate complex scientific concepts into practical advice for improving mental and physical well-being was particularly appealing. Topics such as sleep, stress management, and optimizing brain function provided actionable insights that I could apply to my daily life.&lt;/p&gt;
+
+&lt;p&gt;Huberman’s evidence-based approach to health, wellness, and longevity resonated with me as I sought to improve my overall quality of life. His engaging presentation style made complex scientific information accessible, further fueling my interest in neuroscience and personal development.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From Passive Listener to Active Leader&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Through these podcasts, I not only gained knowledge but also developed a new approach to life. The combination of intellectual depth, authenticity, and practical advice helped me to cultivate a growth mindset, embrace curiosity, and foster a sense of community and engagement. I began to see the importance of surrounding myself with sophisticated individuals and asking meaningful questions, which led to significant personal and professional growth.&lt;/p&gt;
+
+&lt;p&gt;Podcasts have revolutionized my life by providing a platform for continuous learning and self-improvement. They have shown me that the primary truth we most likely hold is shaped by our surroundings and the questions we ask ourselves. By listening to the experiences and insights of people from all around the world, I have been able to reshape my mindset and embark on a path of continuous growth and leadership.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Podcasts have become a powerful tool for personal development, offering a unique blend of education, entertainment, and community. They have helped me transition from a passive listener to an active leader in my own life, demonstrating the profound impact that diverse perspectives, intellectual depth, and practical insights can have on personal growth.&lt;/p&gt;
+
+&lt;p&gt;I encourage you to explore the world of podcasts and see how they can transform your life. Whether you’re looking for educational content, engaging conversations, or a sense of community, there’s a podcast out there for you. Share your favorite podcasts or how podcasting has impacted your life in the comments below—let’s continue this journey of growth and learning together.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Jun 2024 11:05:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/From-listener-to-leader/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/From-listener-to-leader/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Art of Communication: Mastering Engaging Conversations and Effective Pitching</title>
+        <description>&lt;p&gt;In an age where brief and superficial communication often prevails, mastering the art of communication is more important than ever. Whether you’re looking to build relationships, achieve success, or foster personal growth, effective communication plays a vital role. This post delves into the key elements of engaging conversations, the secrets of effective pitching, and how to adapt your style across different mediums.&lt;/p&gt;
+
+&lt;h3 id=&quot;engaging-conversations&quot;&gt;Engaging Conversations&lt;/h3&gt;
+
+&lt;p&gt;Effective communication starts with saying something interesting. Whether you’re having a casual chat or giving a formal talk, capturing your audience’s attention is crucial. Here are some strategies to help you engage your listeners:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Translating to Talks or Podcasts: Tailor your approach to your audience. Joe Rogan and Chris Williamson emphasize articulating your beliefs as truthfully as possible. Instead of manipulating your speech to achieve a specific outcome, focus on expressing your genuine thoughts and accept the outcome. This authenticity can lead to deeper and more meaningful conversations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open-ended Questions: These questions are designed to explore and deepen conversations. For example, asking, “If you had the world’s attention for just one minute, what would you say?” can lead to profound and engaging discussions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Art of Vulnerability: Sharing personal challenges and being open builds trust and deeper connections. Joe Rogan’s authenticity and Chris Williamson’s openness about their struggles make their conversations more relatable and impactful.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning to Pause: Using silence allows for reflection and deeper thinking, making conversations more thoughtful and meaningful.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Gift of Attention: Being fully present and engaged in conversations shows respect and enhances emotional connections. It also helps in capturing the nuances of the conversation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;effective-pitching&quot;&gt;Effective Pitching&lt;/h3&gt;
+
+&lt;p&gt;When it comes to pitching, the goal is to get your audience excited about the problem you’ve worked on. They must appreciate the problem to care about your solution. Here’s how to craft an effective pitch:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make It Actionable: Teach your audience about the issue while giving them a taste of your solution. By the end of your talk, they should feel compelled to follow your work and be impressed by your understanding of the subject.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Develop a Story: Create a narrative arc that makes your pitch memorable. Use storytelling techniques to weave information and emotion, ensuring a good beginning, middle, and end.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cite Sources: Use references to build credibility and show that your work is part of a broader intellectual arc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Manage Audience Attention: Use techniques to keep the audience engaged. Understand that they have a fixed bandwidth and tailor your pitch accordingly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flow of Pitching: Ensure your delivery is snappy and controlled. Your listeners want to know that your concept is mature and that you control the script.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Creating a Problem and Selling a Solution
+Designing an effective pitch involves tailoring it to different audiences, whether they are customers, investors, or potential employees. Here are some tips for creating a compelling pitch:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Face-to-Face or Onstage: Body language matters. Maintain a strong pose, even if you’re nervous, to convey confidence.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Avoid Bad Pitching Practices: Steer clear of jargon, monotone delivery, repetition, overgeneralization, and a lack of stage presence.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Crafting a Good Pitch: Incorporate storytelling, emotion, relatability, and authenticity. A good pitch tells a story, has energy and context, and avoids ending abruptly.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;effective-pitch-decks&quot;&gt;Effective Pitch Decks&lt;/h3&gt;
+
+&lt;p&gt;Guy Kawasaki’s 10-20-30 rule is a great framework for creating a pitch deck. Here’s a breakdown:&lt;/p&gt;
+
+&lt;p&gt;Slide 1: Company name, your name, and email address.&lt;/p&gt;
+
+&lt;p&gt;Slide 2: Problem and opportunity - define the customer’s problem and market size.&lt;/p&gt;
+
+&lt;p&gt;Slide 3: Value proposition - explain your solution and its fit.&lt;/p&gt;
+
+&lt;p&gt;Slide 4: Underlying magic - highlight the unique technology or advantage.&lt;/p&gt;
+
+&lt;p&gt;Slide 5: Business model - describe how you will make money.&lt;/p&gt;
+
+&lt;p&gt;Slide 6: Go-to-market plan - outline how customers will find you.&lt;/p&gt;
+
+&lt;p&gt;Slide 7: Competitive analysis - show why you are better.&lt;/p&gt;
+
+&lt;p&gt;Slide 8: Management team - introduce the team behind the solution.&lt;/p&gt;
+
+&lt;p&gt;Slide 9: Financials - present your financial projections.&lt;/p&gt;
+
+&lt;p&gt;Slide 10: Current status, accomplishments, timeline, and what you need (e.g., investment).&lt;/p&gt;
+
+&lt;p&gt;Learnings and Tips&lt;/p&gt;
+
+&lt;p&gt;-Research Your Audience: Understand who you’re pitching to.&lt;/p&gt;
+
+&lt;p&gt;-Prepare Extra Slides: Have appendix slides ready for additional questions.&lt;/p&gt;
+
+&lt;p&gt;-Use Photos: Visuals can convey more than words.&lt;/p&gt;
+
+&lt;p&gt;-Be Memorable: Aim to leave a lasting impression.&lt;/p&gt;
+
+&lt;p&gt;-Product Demo: Show your product in action.&lt;/p&gt;
+
+&lt;p&gt;-Practice: Rehearse your pitch until it flows naturally. you must have a script and 3 days of practice before the event.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Mastering the art of communication involves engaging conversations and effective pitching. By focusing on authenticity, storytelling, and understanding your audience, you can make your communication efforts more impactful. Whether you’re conversing one-on-one, hosting a podcast, or pitching to investors, these techniques will help you connect with your audience and convey your message effectively.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 Jun 2024 11:05:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/Art-of-Communication/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/Art-of-Communication/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>What I&apos;ve Learned from Self-Help Books</title>
+        <description>&lt;p&gt;Self-help books have been a significant influence on my personal growth journey. They have provided me with the tools to become more disciplined, focused, and mindful. In this post, I want to share some of the key lessons I’ve learned from these books and how they’ve shaped my life.&lt;/p&gt;
+
+&lt;h3 id=&quot;role-models-and-inspirations&quot;&gt;Role Models and Inspirations&lt;/h3&gt;
+
+&lt;p&gt;Usyk: A Model of Discipline and Confidence&lt;/p&gt;
+
+&lt;p&gt;One of my biggest inspirations is Oleksandr Usyk, a phenomenal boxer, father, and husband. Usyk’s ability to regulate himself, stay focused on his fights despite obstacles and doubts, and maintain his confidence and intelligence is truly admirable. He is also a deeply religious person, which adds another layer of strength and resilience to his character. I strive to emulate his discipline and calm under pressure in my own life.&lt;/p&gt;
+
+&lt;p&gt;Andrej Karpathy: The Power of Detailed Thought Process&lt;/p&gt;
+
+&lt;p&gt;Andrej Karpathy has also had a profound impact on me. His articulate and detailed thought process, coupled with his ability to communicate complex ideas with accuracy and precision, is something I deeply admire. Karpathy’s techniques for learning and being a scientist have inspired me to adopt a more structured and effective approach to my own learning.&lt;/p&gt;
+
+&lt;h3 id=&quot;health-and-fitness&quot;&gt;Health and Fitness&lt;/h3&gt;
+
+&lt;p&gt;Efficiency in Exercise&lt;/p&gt;
+
+&lt;p&gt;One crucial lesson I’ve learned is the importance of efficiency in exercise. There’s a subtle art to lifting weights—too much lifting can make you hungry and compromise a 14-hour fast. It’s essential to be strategic about fatigue, repetitions, rest ratios, and overall yearly planning to find the most optimal process for your body. i also monitor my heart rate and i take incharge of my nutrition + vitamins.&lt;/p&gt;
+
+&lt;p&gt;Yoga and Stretching&lt;/p&gt;
+
+&lt;p&gt;Incorporating yoga and stretching into my routine has been transformative. I practice yoga and stretching before exercising and before going to bed. These activities help improve flexibility, reduce the risk of injury, and promote relaxation. They also prepare my body for more intense workouts and aid in recovery afterward, ensuring that I maintain a balanced and healthy lifestyle.&lt;/p&gt;
+
+&lt;p&gt;Ice Baths: A Mental Challenge&lt;/p&gt;
+
+&lt;p&gt;Taking an ice bath is more than just a physical challenge; it’s a test of mental fortitude. Embracing the discomfort and pushing through it has taught me a lot about resilience and the power of the mind.&lt;/p&gt;
+
+&lt;p&gt;Listening to Your Body&lt;/p&gt;
+
+&lt;p&gt;Another vital lesson is the importance of listening to your body and mind. Recognizing that you are a hardworking person means understanding when to push and when to take a step back. If things aren’t going your way, sometimes a less intense workout can be just as beneficial.&lt;/p&gt;
+
+&lt;p&gt;Daily Habits and Discipline
+Making My Own Coffee&lt;/p&gt;
+
+&lt;p&gt;A simple yet effective habit I’ve adopted is making my own coffee. This allows me to control my sugar intake and start my day with a sense of accomplishment and control.&lt;/p&gt;
+
+&lt;p&gt;Discipline Over Motivation&lt;/p&gt;
+
+&lt;p&gt;I’ve learned that discipline is more reliable than motivation. By focusing on small, consistent actions, I’ve developed processes that lead to long-term success, rather than relying on fleeting bursts of motivation.&lt;/p&gt;
+
+&lt;p&gt;No News&lt;/p&gt;
+
+&lt;p&gt;Avoiding the news has been a game-changer for me. It reduces distractions and helps me stay focused on my goals and priorities.&lt;/p&gt;
+
+&lt;p&gt;Personal Growth and Challenges
+From 80 kg to 60 kg&lt;/p&gt;
+
+&lt;p&gt;My weight loss journey from 80 kg to 60 kg has been transformative. Transitioning from a higher fat percentage to a lean, muscular build has not only improved my physical health but also boosted my confidence.&lt;/p&gt;
+
+&lt;p&gt;Training as a Fighter&lt;/p&gt;
+
+&lt;p&gt;I’ve recently started training as a fighter, exploring kickboxing, boxing, Muay Thai, and Taekwondo. The variety keeps things interesting, and I love the challenge of grounding and pounding. Jogging when the weather is fine and enjoying the benefits of sunlight and vitamin D has become a regular part of my routine.&lt;/p&gt;
+
+&lt;p&gt;Mindfulness and Meditation
+Meditation&lt;/p&gt;
+
+&lt;p&gt;Meditation has become a cornerstone of my daily routine. It helps me stay centered and mindful, allowing me to navigate life’s challenges with greater ease and clarity.&lt;/p&gt;
+
+&lt;p&gt;Managing Distractions&lt;/p&gt;
+
+&lt;p&gt;Being mindful of the distractions I allow into my life has been crucial. I’ve learned to recognize what serves my goals and what doesn’t, helping me stay focused and productive.&lt;/p&gt;
+
+&lt;h3 id=&quot;social-interactions-and-relationships&quot;&gt;Social Interactions and Relationships&lt;/h3&gt;
+
+&lt;p&gt;Interactions Based on Relationships&lt;/p&gt;
+
+&lt;p&gt;I’ve learned that social interactions should be tailored based on the level of the relationship and mutual understanding. Recognizing and respecting these dynamics leads to more meaningful and harmonious connections.&lt;/p&gt;
+
+&lt;p&gt;Good People Without Transactions&lt;/p&gt;
+
+&lt;p&gt;It’s important to acknowledge and appreciate the good people who help others without expecting anything in return. This realization has helped me foster more genuine and supportive relationships.&lt;/p&gt;
+
+&lt;h3 id=&quot;personal-hobbies&quot;&gt;Personal Hobbies&lt;/h3&gt;
+
+&lt;p&gt;Cooking and Singing&lt;/p&gt;
+
+&lt;p&gt;Two hobbies that bring me immense joy are cooking and singing. Cooking allows for endless creativity and experimentation, while singing provides a wonderful outlet for emotional expression.&lt;/p&gt;
+
+&lt;p&gt;TLDR: Self-help books have equipped me with the knowledge and inspiration to continually improve myself. By incorporating these lessons into my daily life, I’ve been able to achieve significant personal growth. I hope these insights inspire you to embark on your own journey of self-improvement and discover the benefits of self-help literature.&lt;/p&gt;
+
+&lt;p&gt;Feel free to share your experiences and thoughts in the comments. Let’s learn and grow together!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Jun 2024 11:01:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/29/what-ive-learned-from/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/29/what-ive-learned-from/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The most important math you should learn!</title>
+        <description>&lt;p&gt;“The journey of solving a problem is often more rewarding than the solution itself.” Terence Tao&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Fourier.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A Fourier series(see figure 1) is an expansion of a periodic function into a sum of trigonometric functions(sines and cosines). Quite hard to understand, right? If I were you, my brain would explode just thinking about all those technical terms linked together (proven through research!). But my goal as a student is to shorten the gap of understanding efficiently, using less mental power. And I claim that understanding&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;‘orthogonality’ will make you grasp the rest of the Fourier series(fourier techniques). But how, you ask? Let’s start with a story!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-tale-of-the-orchestra-and-the-conductor&quot;&gt;The Tale of the Orchestra and the Conductor&lt;/h3&gt;
+
+&lt;p&gt;Once upon a time, in a land where music was the essence of life, there was a grand orchestra. This orchestra was unique because each musician played a pure, distinct tone—a sine wave of a specific frequency.&lt;/p&gt;
+
+&lt;p&gt;The orchestra was led by a wise and experienced conductor who had the extraordinary ability to create any piece of music by combining the tones played by the musicians. However, the conductor faced a significant challenge: the music created by combining all these tones often turned into a confusing cacophony, making it hard to identify and adjust individual contributions.&lt;/p&gt;
+
+&lt;p&gt;One day, the conductor discovered an ancient musical manuscript that described the secret of orthogonality. According to the manuscript, orthogonality was like a magical property that would allow the conductor to separate and manage each tone independently, even when they were all playing together.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/orchestra.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Individual Contributions: The manuscript revealed that each musician’s tone was orthogonal to the others. This meant that if one musician’s tone was represented by a sine wave of a certain frequency, it had no overlap or interference with the tones of other musicians. Mathematically, the inner product (a way to measure overlap) of different sine waves was zero.&lt;/p&gt;
+
+&lt;p&gt;Magical Filters: Armed with this knowledge, the conductor could now use special mathematical filters to extract each musician’s contribution from the combined music. These filters were like magic spells that could isolate one tone from the blend, allowing the conductor to hear and analyze each musician’s part as if they were playing alone.&lt;/p&gt;
+
+&lt;p&gt;Reconstruction of Music: With the ability to separate and manage each tone, the conductor could now reconstruct any piece of music by adjusting the volume (amplitude) and timing (phase) of each musician’s tone independently. This made it possible to create harmonious and complex compositions without the parts interfering with one another.&lt;/p&gt;
+
+&lt;p&gt;Balance and Harmony: The conductor used the orthogonality principle to balance the orchestra perfectly. By understanding that each tone was independent, the conductor could adjust each musician’s contribution to achieve the desired overall sound, ensuring harmony and clarity in every performance.&lt;/p&gt;
+
+&lt;p&gt;The musicians in the orchestra also benefited from this understanding. They realized that by playing their tones correctly and in tune with the orthogonality principle, they contributed to the beauty of the music without clashing with their peers.&lt;/p&gt;
+
+&lt;p&gt;Moral of the Story: In the realm of Fourier series, the sine and cosine functions (the musicians) are orthogonal. This orthogonality means that each sine and cosine function at different frequencies does not interfere with one another when we analyze a complex signal. The “conductor” (the mathematician or engineer) can use this property to:&lt;/p&gt;
+
+&lt;p&gt;Decompose a complex signal into its fundamental sine and cosine components.
+Analyze each component separately to understand its contribution.
+Reconstruct the original signal by combining these components appropriately.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Orthogonality in Fourier series ensures that we can manage and manipulate each frequency component independently, leading to clear and accurate analysis and synthesis of signals. This principle is crucial for many applications in engineering, physics, and beyond.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We engineers often face difficult real-life problems, especially in mathematics, which we don’t seem to excel at naturally. The actual work is different from the theory because teachers usually provide problems that are well-defined, but in practice, things can be more complex. You need to apply your math skills in every case and in certain situations. In any case, the Fourier series technique is very useful to us If one has honed its judgment.&lt;/p&gt;
+
+&lt;p&gt;Before we delve into the technical part of the Fourier series. One must always know the history and its development to how it became to what it is today. For the lack of a better term, this is just how I learn and understand things.&lt;/p&gt;
+
+&lt;p&gt;Historical Development: The Journey of Fourier Series&lt;/p&gt;
+
+&lt;p&gt;Things always set in motion in the pursuit of discovery! Now, 
+Imagine it’s the early 19th century, and you’re a French mathematician named Joseph Fourier. You’re fascinated by the problem of heat conduction and how heat spreads through different materials. To tackle this, you propose a radical idea: representing a function describing the temperature distribution as a sum of simpler, periodic functions—sines and cosines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/math.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite skepticism from your peers, you published your work in 1822, titled “Théorie analytique de la chaleur” (The Analytical Theory of Heat). You show that complex, periodic heat distributions can be broken down into a series of simpler waves. This idea, the Fourier series, begins to slowly gain acceptance.&lt;/p&gt;
+
+&lt;p&gt;The Foundations Strengthened
+A few decades later, other mathematicians like Peter Gustav Lejeune Dirichlet came along and provided rigorous proofs to support your work. Dirichlet formulates the conditions under which these series converge, giving the mathematical community the confidence that your method works under specific circumstances.&lt;/p&gt;
+
+&lt;p&gt;Applications in Physics and Engineering
+Fast forward to the late 19th and early 20th centuries. Mathematicians and physicists, including Henri Poincaré, begin to apply Fourier series to various fields. Poincaré uses them to solve complex problems in celestial mechanics, studying the stability of orbits of planets and stars. Fourier series help break down the periodic motion of celestial bodies into manageable components, aiding in the understanding of gravitational interactions.
+Meanwhile, in Germany, David Hilbert introduces the concept of Hilbert spaces, providing a more general and abstract framework for understanding functions and series, including Fourier series. This development allows mathematicians to handle infinite-dimensional spaces with the same confidence as finite-dimensional ones.&lt;/p&gt;
+
+&lt;p&gt;Transforming Technology: The Fast Fourier Transform (FFT)
+The story takes a revolutionary turn in 1965. Two American mathematicians, James Cooley and John Tukey, develop the Fast Fourier Transform (FFT), an algorithm that dramatically speeds up the computation of Fourier series. This innovation makes it feasible to use Fourier analysis in real-time applications.
+With FFT, Fourier series become a cornerstone of digital signal processing. Engineers can now efficiently analyze and filter signals in various technologies—radios, televisions, and telephones. FFT transforms the telecommunications industry, enabling the compression and transmission of data over long distances without losing quality.&lt;/p&gt;
+
+&lt;p&gt;The Digital Age: From Medical Imaging to Audio Engineering
+As we enter the digital age, the applications of Fourier series continue to expand. Medical professionals use them in MRI scans to create detailed images of the inside of the human body. By analyzing the frequency components of the signals received from the scanner, doctors can diagnose diseases with high precision.
+In the music industry, Fourier series and the FFT enable audio engineers to manipulate sound recordings. They can isolate and remove noise, enhance certain frequencies, and create digital effects, revolutionizing music production and sound design.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/frequency.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The development of Fourier series is rooted in the contributions of several key figures:
+D’Alembert: Introduced the 1-dimensional wave equation, describing the vibrations of a string using trigonometric functions.&lt;/p&gt;
+
+&lt;p&gt;Bernoulli: Proposed that the motion of a vibrating string could be described as a superposition of sinusoidal functions.&lt;/p&gt;
+
+&lt;p&gt;Fourier: Introduced the idea that any periodic function could be represented by an infinite series of sine and cosine functions, although initially lacking rigorous mathematical foundation.&lt;/p&gt;
+
+&lt;p&gt;Cauchy: Addressed convergence issues of Fourier series, providing a more rigorous mathematical framework and defining conditions under which the series converges.&lt;/p&gt;
+
+&lt;p&gt;Dirichlet: Provided the first rigorous proof of Fourier’s theorem, establishing conditions (Dirichlet conditions) for the convergence of Fourier series.&lt;/p&gt;
+
+&lt;p&gt;Riemann: Expanded Fourier’s work to study the integrability and convergence of series.&lt;/p&gt;
+
+&lt;p&gt;Hilbert: Developed the concept of Hilbert space, providing a general framework for understanding functions and series, emphasizing orthogonality, inner product, and completeness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/four.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mathematical principles:
+Periodic Signals: Fourier series are particularly useful for analyzing periodic signals.
+Continuous Time and Discrete Frequency Transformation: Fourier series provide a way to transform a continuous-time signal into a discrete set of frequency components.&lt;/p&gt;
+
+&lt;p&gt;Decomposition of Functions: Breaking down complex functions into simpler sine and cosine components.&lt;/p&gt;
+
+&lt;p&gt;Orthogonality: Basis functions (sines and cosines) are orthogonal, meaning they do not overlap, which simplifies the computation of coefficients.&lt;/p&gt;
+
+&lt;p&gt;Inner Product: Projecting functions onto basis functions to find the coefficients of the series.&lt;/p&gt;
+
+&lt;p&gt;Convergence and Completeness: Conditions under which the series converges to the function, and the idea that every function in a space can be represented as an infinite series of basis functions.&lt;/p&gt;
+
+&lt;p&gt;Weighting Function: Determines the contribution of each sinusoidal component to the overall periodic function.&lt;/p&gt;
+
+&lt;p&gt;Discrete Spectrum: Defined at multiples of the fundamental frequency for periodic signals.&lt;/p&gt;
+
+&lt;p&gt;Now that we know how the fourier series works under the hood and how it is developed through the years, let’s look for its development and practical applications.&lt;/p&gt;
+
+&lt;p&gt;Applications:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heat Equation
+Application: Solving the heat distribution in a given domain over time.
+Orthogonality and Linearity: The heat equation is a linear partial differential equation (PDE). When solving it using separation of variables, the resulting solutions are often in the form of orthogonal functions (e.g., sine and cosine functions in a bounded domain). These orthogonal functions allow us to decompose the initial heat distribution into simpler components, solve for each component independently, and then sum the solutions to get the overall heat distribution.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Harmonic Analysis
+Application: Analyzing vibrations and waveforms in mechanical and electrical systems.
+Orthogonality and Linearity: Harmonic analysis involves breaking down complex waveforms into their fundamental sinusoidal components (harmonics). These components are orthogonal sine and cosine functions, which simplifies the analysis and synthesis of the waveform. This approach is linear because the principle of superposition applies, allowing each harmonic to be treated independently.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Signal Processing
+Application: Filtering, compressing, and analyzing signals (e.g., audio, video, communications).
+Orthogonality and Linearity: In signal processing, the Fourier transform(development of fourier series) decomposes signals into orthogonal sinusoidal components. This orthogonality allows efficient filtering and compression, as each frequency component can be manipulated independently. Linearity ensures that the superposition principle holds, enabling the combination of processed components to reconstruct the original or modified signal accurately.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Image Compression (e.g., JPEG, MPEG)
+Application: Reducing the file size of images and videos.
+Orthogonality and Linearity: Image compression algorithms like JPEG use the Discrete Cosine Transform (DCT) to convert image data into frequency components. These components are orthogonal, allowing for efficient separation and quantization of the image data. Linearity ensures that the superposition principle applies, enabling the accurate reconstruction of the image from its compressed components.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modal Analysis in Structural Engineering
+Application: Determining the natural vibration modes of structures.
+Orthogonality and Linearity: In modal analysis, the natural vibration modes (eigenmodes) of a structure are calculated. These modes are orthogonal to each other, meaning each mode represents an independent way the structure can vibrate. The linearity of the equations of motion ensures that the superposition of these modes accurately describes the overall vibration behavior of the structure.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chirped Pulse Amplification&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/application.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Application: Enabled the creation of extremely powerful laser systems
+Orthogonality and Linearity: involves stretching an ultra-short laser pulse in time, amplifying it, and then compressing it back to its original duration. This process allows the amplification of pulses to extremely high peak powers without damaging the amplifying medium.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tidal analysis and prediction
+Application: periodic nature of tides, allowing their representation as a sum of sinusoidal components. machines like wave energy converter is useful to this
+Orthogonality and Linearity: accurate decomposition of tidal data into constituent frequencies, while the linearity property enables the combination of different tidal constituents to model complex tidal patterns effectively&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Formula.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/wEC.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each of these examples leverages the orthogonality and linearity of functions to simplify complex problems, allowing for efficient analysis, manipulation, and reconstruction of systems and signals.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s good to know its application but how do we do things in real life? 1 real life engineering story about its application.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-challenge-of-noise-reduction-in-audio-signals&quot;&gt;The Challenge of Noise Reduction in Audio Signals&lt;/h3&gt;
+
+&lt;p&gt;Imagine it’s the mid-20th century, and you’re working as an audio engineer at a music recording studio. You and your team face a recurring problem: the recordings are often distorted by unwanted noise. This noise could come from various sources—mechanical vibrations, electrical interference, or even environmental sounds. The challenge is to clean up these recordings without losing the quality of the music.&lt;/p&gt;
+
+&lt;p&gt;Initial Attempts: Analog Filters&lt;/p&gt;
+
+&lt;p&gt;Initially, your team tries using analog filters to reduce the noise. While these filters can help, they are not very precise. They often remove parts of the actual music along with the noise, leading to a loss of quality. You need a more sophisticated method to separate the noise from the music.&lt;/p&gt;
+
+&lt;p&gt;Enter Fourier Series&lt;/p&gt;
+
+&lt;p&gt;One day, a mathematician visits your studio and suggests using a mathematical technique called Fourier series. The idea is to break down the complex audio signal into simpler components—sine and cosine waves. Each of these waves represents a different frequency component of the original signal.&lt;/p&gt;
+
+&lt;p&gt;The mathematician explains that any periodic signal, like your music recording, can be expressed as a sum of these sine and cosine waves. By analyzing the frequency components, you can identify and isolate the unwanted noise.&lt;/p&gt;
+
+&lt;p&gt;Applying Fourier Series: The Solution&lt;/p&gt;
+
+&lt;p&gt;You decide to give it a try. Here’s how you proceed:&lt;/p&gt;
+
+&lt;p&gt;Digitizing the Signal:
+First, you convert the analog audio recording into a digital signal. This involves sampling the continuous audio signal at regular intervals to create a sequence of discrete data points.&lt;/p&gt;
+
+&lt;p&gt;Fourier Transform:
+Next, you apply the Fourier transform(next level of fourier series) to the digital signal. This mathematical operation transforms the time-domain signal (the original audio recording) into the frequency domain. In the frequency domain, you can see the amplitudes of the different frequency components that make up the audio signal.&lt;/p&gt;
+
+&lt;p&gt;Identifying Noise:&lt;/p&gt;
+
+&lt;p&gt;By examining the frequency spectrum, you notice certain frequency components that are abnormally high and don’t correspond to the musical notes. These are the noise frequencies.&lt;/p&gt;
+
+&lt;p&gt;Filtering Out Noise:&lt;/p&gt;
+
+&lt;p&gt;You then create a digital filter that removes these unwanted frequency components. This process involves setting the amplitudes of the noise frequencies to zero or significantly reducing them.&lt;/p&gt;
+
+&lt;p&gt;Inverse Fourier Transform:
+Finally, you apply the inverse Fourier transform to convert the filtered signal back into the time domain. The result is a cleaner audio recording with significantly reduced noise.&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Fourier series connect abstract mathematics with real-world applications, showcasing their significant impact and utility. This highlights the power of mathematical insight to drive innovation and shape our world.&lt;/p&gt;
+
+&lt;p&gt;It is almost always important to note that:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Seek] Idealized problems -&amp;gt;[Find] General solutions -&amp;gt; [Create] Realistic models&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Where there’s curvature in space, there’s change in time&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Constraints that the temperature function must satisfy if it’s going to accurately describe heat flow.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boundary conditions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Initial condition - because you don’t get to choose how it looks at t = 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gain control of this ocean turning all of the right knobs and dial, so as to select from it the particular solution fitting a given initial conditions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Differential equations offer us a really nice context where you can see how that plays out&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;TLDR: now you know the following(I hope so :D)&lt;/p&gt;
+
+&lt;p&gt;-Define what a Fourier series is and understand why its formula is the way it is.&lt;/p&gt;
+
+&lt;p&gt;-Explain the concept of orthogonality in the context of sine and cosine functions&lt;/p&gt;
+
+&lt;p&gt;-Identify real-world applications of Fourier series in various fields such as engineering, physics, and signal processing.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Jun 2024 20:40:47 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/28/The-most-important-math-you-should-learn!/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/28/The-most-important-math-you-should-learn!/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
