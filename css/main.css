@@ -113,29 +113,14 @@ video {
 }
 
 .home-view {
-  padding: 2.25rem 0 4rem;
+  padding: 1.5rem 0 4rem;
 }
 
-.home-intro {
-  margin-bottom: 1.5rem;
-}
-
-.home-intro h1,
 .article-title {
   font-family: "Playfair Display", serif;
   letter-spacing: -0.02em;
   line-height: 1.12;
   color: var(--text);
-}
-
-.home-intro h1 {
-  font-size: clamp(2rem, 5vw, 2.8rem);
-}
-
-.home-intro p {
-  margin-top: 0.4rem;
-  color: var(--muted);
-  font-size: 0.98rem;
 }
 
 .section-heading {
