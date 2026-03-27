@@ -1,11 +1,10 @@
 <footer class="site-footer">
   <div class="site-shell site-footer-inner">
-    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }} · Built with Jekyll and GitHub Pages</p>
+    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</p>
     <div class="footer-links">
       {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}">GitHub</a>
       {% endif %}
-      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       {% if site.email and site.email != '' %}
         <a href="mailto:{{ site.email }}">Email</a>
       {% endif %}

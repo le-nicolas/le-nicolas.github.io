@@ -9,17 +9,9 @@ layout: default
 {% endfor %}
 
 <div class="home-view">
-  <section class="hero">
-    <p class="eyebrow">For readers who follow the journey</p>
-    <h1>Clear writing, thoughtful ideas, and honest lessons.</h1>
-    <p class="hero-copy">
-      {{ site.description }}
-      A simple place to read what matters without distractions.
-    </p>
-    <div class="hero-meta">
-      <span>{{ site.posts | size }} posts</span>
-      <span>{{ total_words }} words published</span>
-    </div>
+  <section class="home-intro">
+    <h1>Blog</h1>
+    <p>{{ site.description }}</p>
   </section>
 
   <section class="search-wrap" aria-label="Search and filter posts">
@@ -48,7 +40,6 @@ layout: default
 
   <div class="section-heading">
     <h2>Latest posts</h2>
-    <p>Start anywhere. Everything here is written to be useful and easy to follow.</p>
   </div>
 
   <section class="posts-list" id="postsGrid">

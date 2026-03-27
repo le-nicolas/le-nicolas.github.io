@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Luis Enrico Nicolas Blog
-short_title: LE - Nicolas
+title: Luis Enrico Nicolas
+short_title: Luis Enrico Nicolas
 email: 
 description: Thoughts to ponder of a Mechanical Engineer
 baseurl: "" 
