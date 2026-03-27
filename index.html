@@ -14,35 +14,11 @@ layout: default
     <p>{{ site.description }}</p>
   </section>
 
-  <section class="search-wrap" aria-label="Search and filter posts">
-    <input
-      type="text"
-      class="search-box"
-      id="searchInput"
-      placeholder="Search posts..."
-      aria-label="Search posts"
-    >
-
-    <div class="tags-filter" id="tagsFilter">
-      <button class="tag-btn active" data-tag-filter="all" type="button">All</button>
-      {% assign taxonomy_tags = site.tag_taxonomy | default: empty %}
-      {% for tag_name in taxonomy_tags %}
-        <button class="tag-btn" data-tag-filter="{{ tag_name | downcase }}" type="button">{{ tag_name }}</button>
-      {% endfor %}
-      {% assign discovered_tags = site.tags | map: "first" | sort %}
-      {% for tag_name in discovered_tags %}
-        {% unless taxonomy_tags contains tag_name %}
-          <button class="tag-btn" data-tag-filter="{{ tag_name | downcase }}" type="button">{{ tag_name }}</button>
-        {% endunless %}
-      {% endfor %}
-    </div>
-  </section>
-
   <div class="section-heading">
     <h2>Latest posts</h2>
   </div>
 
-  <section class="posts-list" id="postsGrid">
+  <section class="posts-list">
     {% for post in site.posts %}
       {% assign post_words = post.content | strip_html | strip_newlines | split: ' ' | size %}
       {% assign read_minutes = post_words | plus: 219 | divided_by: 220 %}
@@ -53,17 +29,12 @@ layout: default
       <a
         class="post-card"
         href="{{ post.url | relative_url }}"
-        data-tags="{{ post.tags | join: '|' | downcase }}"
       >
         <div class="post-meta">
           <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
 
           {% if post.tags and post.tags.size > 0 %}
-            {% for tag in post.tags limit: 3 %}
-              <span class="post-tag">{{ tag }}</span>
-            {% endfor %}
-          {% else %}
-            <span class="post-tag">Untagged</span>
+            <span class="post-tag">{{ post.tags | first }}</span>
           {% endif %}
 
           <span class="read-time">{{ read_minutes }} min read</span>
@@ -76,6 +47,4 @@ layout: default
       </a>
     {% endfor %}
   </section>
-
-  <p id="noResults" class="no-results" hidden>No posts match your current filter.</p>
 </div>
