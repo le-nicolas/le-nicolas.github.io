@@ -10,26 +10,15 @@ layout: default
 
 <div class="home-view">
   <section class="hero">
-    <div class="hero-left">
-      <h1>Writing<br>about <em>ideas</em><br>and craft.</h1>
-      <p>{{ site.description }}</p>
-    </div>
-
-    <div class="hero-right">
-      <div class="stat-row">
-        <div class="stat">
-          <span class="stat-num">{{ site.posts | size }}</span>
-          <span class="stat-label">Posts</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">{{ site.tag_taxonomy | size }}</span>
-          <span class="stat-label">Topics</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">{{ total_words }}</span>
-          <span class="stat-label">Words</span>
-        </div>
-      </div>
+    <p class="eyebrow">For readers who follow the journey</p>
+    <h1>Clear writing, thoughtful ideas, and honest lessons.</h1>
+    <p class="hero-copy">
+      {{ site.description }}
+      A simple place to read what matters without distractions.
+    </p>
+    <div class="hero-meta">
+      <span>{{ site.posts | size }} posts</span>
+      <span>{{ total_words }} words published</span>
     </div>
   </section>
 
@@ -57,13 +46,12 @@ layout: default
     </div>
   </section>
 
-  <div class="divider">
-    <div class="divider-line"></div>
-    <span class="divider-label">Latest Posts</span>
-    <div class="divider-line"></div>
+  <div class="section-heading">
+    <h2>Latest posts</h2>
+    <p>Start anywhere. Everything here is written to be useful and easy to follow.</p>
   </div>
 
-  <section class="posts-grid" id="postsGrid">
+  <section class="posts-list" id="postsGrid">
     {% for post in site.posts %}
       {% assign post_words = post.content | strip_html | strip_newlines | split: ' ' | size %}
       {% assign read_minutes = post_words | plus: 219 | divided_by: 220 %}
@@ -72,7 +60,7 @@ layout: default
       {% endif %}
 
       <a
-        class="post-card{% if forloop.first %} featured{% endif %}"
+        class="post-card"
         href="{{ post.url | relative_url }}"
         data-tags="{{ post.tags | join: '|' | downcase }}"
       >
@@ -93,9 +81,7 @@ layout: default
         <h2 class="post-title">{{ post.title }}</h2>
         <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }}</p>
 
-        <div class="post-footer">
-          <span class="read-more">Read essay <span class="arrow" aria-hidden="true">→</span></span>
-        </div>
+        <span class="read-more">Read post</span>
       </a>
     {% endfor %}
   </section>
